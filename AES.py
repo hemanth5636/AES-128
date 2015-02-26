@@ -35,11 +35,5 @@ else:
     fo = open(fname,'wb')
     fo.write(decoded)
     fo.close()
-    fo = open(fname , 'r')
-    ss = fo.read()    
-    ss.rstrip(PADDING)
-    fo.close()
-    fo = open(fname,'w')
-    fo.write(ss)
-    fo.close()
+    
     
